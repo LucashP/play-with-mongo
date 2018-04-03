@@ -15,7 +15,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <junit.version>3.8.1</junit.version>
+        <junit.version>4.12</junit.version>
+        <mongodb-driver.version>3.6.3</mongodb-driver.version>
     </properties>
 
     <dependencies>
@@ -24,6 +25,11 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>${mongodb-driver.version}</version>
         </dependency>
     </dependencies>
 </project>
